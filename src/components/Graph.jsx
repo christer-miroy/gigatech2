@@ -44,7 +44,7 @@ const Graph = () => {
     <div className="h-60 w-full float-left flex flex-col gap-2">
       <h2 className="text-lg font-semibold text-blue-500">Today</h2>
       <LineChart
-          width={1200}
+          width={1100}
           height={220}
           data={data}
           margin={{

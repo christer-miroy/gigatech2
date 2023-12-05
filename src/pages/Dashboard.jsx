@@ -1,4 +1,4 @@
-import Graph from "../components/Graph";
+import Graph from "../components/GRaph";
 import Header from "../components/Header";
 import RecentOrders from "../components/RecentOrders";
 import Footer from "../components/Footer";
@@ -24,7 +24,7 @@ const Dashboard = ({orders}) => {
         </div>
         <div className="bg-white p-3 shadow-lg">
           <RecentOrders orders={orders} limit={recentOrderLimit} />
-          <Link to="/orders" className="block text-blue-500 font-semibold mt-4">See all orders</Link>
+          <Link to="/orders" className="block text-blue-500 mt-4 underline">See more orders</Link>
         </div>
       </div>
       <Footer />
