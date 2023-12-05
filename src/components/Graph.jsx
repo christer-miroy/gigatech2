@@ -1,4 +1,4 @@
-
+import { LineChart, Line, XAxis, YAxis } from 'recharts';
 
 const data = [
   {
@@ -43,7 +43,21 @@ const Graph = () => {
   return (
     <div className="h-60 w-full float-left flex flex-col gap-2">
       <h2 className="text-lg font-semibold text-blue-500">Today</h2>
-      
+      <LineChart
+          width={1200}
+          height={200}
+          data={data}
+          margin={{
+            top: 5,
+            right: 30,
+            left: 20,
+            bottom: 5,
+          }}
+        >
+          <XAxis dataKey="time" />
+          <YAxis dataKey="value" label={{ value: 'Sales ($)', angle: -90, position: 'insideLeft' }} />
+          <Line type="monotone" dataKey="value" stroke="#3B82F6" strokeWidth={2} dot={false} />
+        </LineChart>
     </div>
   )
 }
