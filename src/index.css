@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: rgb(245, 239, 239)
+}
+
+.app {
+  display: flex;
+}
+
+.graph-container {
+  width: 70%;
+}

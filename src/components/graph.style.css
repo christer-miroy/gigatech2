@@ -1,0 +1,11 @@
+/* Customize x-axis grid lines */
+.tremor-line-chart .x-axis .grid-line {
+    stroke: #ccc;
+    stroke-dasharray: 4;
+  }
+  
+  /* Customize y-axis grid lines */
+  .tremor-line-chart .y-axis .grid-line {
+    stroke: #ccc;
+    stroke-dasharray: 4;
+  }
