@@ -45,7 +45,7 @@ const Graph = () => {
       <h2 className="text-lg font-semibold text-blue-500">Today</h2>
       <LineChart
           width={1200}
-          height={200}
+          height={220}
           data={data}
           margin={{
             top: 5,
@@ -55,7 +55,7 @@ const Graph = () => {
           }}
         >
           <XAxis dataKey="time" />
-          <YAxis dataKey="value" label={{ value: 'Sales ($)', angle: -90, position: 'insideLeft' }} />
+          <YAxis dataKey="value" label={{ value: 'Sales ($)', angle: -90, position: 'insideLeft' , style: { fontWeight: 'bold' } }} />
           <Line type="monotone" dataKey="value" stroke="#3B82F6" strokeWidth={2} dot={false} />
         </LineChart>
     </div>
