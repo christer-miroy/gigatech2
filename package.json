@@ -1,5 +1,6 @@
 {
-  "homepage": "https://christer-miroy.github.io/dashboard/",
+  "homepage": "https://christer-miroy.github.io/gigatech2/dashboard",
+  "repository": "https://github.com/christer-miroy/gigatech2.git",
   "name": "gigatech2",
   "private": true,
   "version": "0.0.0",
