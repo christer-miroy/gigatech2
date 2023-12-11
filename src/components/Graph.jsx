@@ -1,43 +1,7 @@
 import { LineChart, Line, XAxis, YAxis } from 'recharts';
+import graphData from '../graph.json'
 
-const data = [
-  {
-      "time":"00:00",
-      "value":0
-  },
-  {
-      "time":"03:00",
-      "value":275.00092883864187
-  },
-  {
-      "time":"06:00",
-      "value":624.9997268121642
-  },
-  {
-      "time":"09:00",
-      "value":800.0007947282496
-  },
-  {
-      "time":"12:00",
-      "value":1462.5004097817537
-  },
-  {
-      "time":"15:00",
-      "value":1987.5002756713616
-  },
-  {
-      "time":"18:00",
-      "value":2400
-  },
-  {
-    "time":"21:00",
-    "value":2400
-  },
-  {
-    "time":"24:00",
-    "value":null
-  }
-];
+const data = graphData;
 
 const Graph = () => {
   return (
@@ -49,8 +13,8 @@ const Graph = () => {
           data={data}
           margin={{
             top: 5,
-            right: 30,
-            left: 20,
+            right: 100,
+            left: 10,
             bottom: 5,
           }}
         >
