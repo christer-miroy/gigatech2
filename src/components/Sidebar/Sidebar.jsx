@@ -25,7 +25,7 @@ const Sidebar = () => {
       <div className="content">
         <ul className="flex flex-col gap-4">
           <li>
-            <Link to="/" className="flex gap-3">
+            <Link to="/dashboard" className="flex gap-3">
               {isMinimized ? (
                 <FontAwesomeIcon icon={faDashboard} className="minimized-icon" />
               ) : (
