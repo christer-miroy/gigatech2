@@ -1,3 +1,4 @@
+import Footer from "../components/Footer";
 import Header from "../components/Header";
 
 const Reports = () => {
@@ -7,6 +8,7 @@ const Reports = () => {
     <div>
       <Header pageTitle={pageTitle} notificationCount={4} />
       Reports
+      <Footer />
     </div>
   )
 }

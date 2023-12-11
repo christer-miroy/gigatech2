@@ -1,3 +1,4 @@
+import Footer from "../components/Footer";
 import Header from "../components/Header";
 
 const Integrations = () => {
@@ -7,6 +8,7 @@ const Integrations = () => {
     <div>
       <Header pageTitle={pageTitle} notificationCount={4} />
       Integrations
+      <Footer />
     </div>
   )
 }
