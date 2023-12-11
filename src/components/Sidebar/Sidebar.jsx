@@ -25,7 +25,7 @@ const Sidebar = () => {
       <div className="content">
         <ul className="flex flex-col gap-4">
           <li>
-            <Link to="/" className="flex gap-3">
+            <Link to="/" className="flex gap-3 text-sm">
               {isMinimized ? (
                 <FontAwesomeIcon icon={faDashboard} className="minimized-icon" />
               ) : (
@@ -37,7 +37,7 @@ const Sidebar = () => {
             </Link>
           </li>
           <li>
-            <Link to="/orders" className="flex gap-3">
+            <Link to="/orders" className="flex gap-3 text-sm">
               {isMinimized ? (
                 <FontAwesomeIcon icon={faShoppingCart} className="minimized-icon" />
               ) : (
@@ -49,7 +49,7 @@ const Sidebar = () => {
             </Link>
           </li>
           <li>
-            <Link to="/customers" className="flex gap-3">
+            <Link to="/customers" className="flex gap-3 text-sm">
               {isMinimized ? (
                 <FontAwesomeIcon icon={faUsers} className="minimized-icon" />
               ) : (
@@ -61,7 +61,7 @@ const Sidebar = () => {
             </Link>
           </li>
           <li>
-            <Link to="/reports" className="flex gap-3">
+            <Link to="/reports" className="flex gap-3 text-sm">
               {isMinimized ? (
                 <FontAwesomeIcon icon={faBarChart} className="minimized-icon" />
               ) : (
@@ -73,7 +73,7 @@ const Sidebar = () => {
             </Link>
           </li>
           <li>
-            <Link to="/integrations" className="flex gap-3">
+            <Link to="/integrations" className="flex gap-3 text-sm">
               {isMinimized ? (
                 <FontAwesomeIcon icon={faLayerGroup} className="minimized-icon" />
               ) : (
@@ -91,7 +91,7 @@ const Sidebar = () => {
             </>
           )}
           <li>
-            <Link to="/currentmonth" className="flex gap-3">
+            <Link to="/currentmonth" className="flex gap-3 text-sm">
               {isMinimized ? (
                 <FontAwesomeIcon icon={faFileAlt} className="minimized-icon" />
               ) : (
@@ -103,7 +103,7 @@ const Sidebar = () => {
             </Link>
           </li>
           <li>
-            <Link to="/lastquarter" className="flex gap-3">
+            <Link to="/lastquarter" className="flex gap-3 text-sm">
               {isMinimized ? (
                 <FontAwesomeIcon icon={faFileAlt} className="minimized-icon" />
               ) : (
@@ -115,7 +115,7 @@ const Sidebar = () => {
             </Link>
           </li>
           <li>
-            <Link to="/yearendsale" className="flex gap-3">
+            <Link to="/yearendsale" className="flex gap-3 text-sm">
               {isMinimized ? (
                 <FontAwesomeIcon icon={faFileAlt} className="minimized-icon" />
               ) : (

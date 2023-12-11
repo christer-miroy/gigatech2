@@ -5,17 +5,17 @@ const data = graphData;
 
 const Graph = () => {
   return (
-    <div className="h-60 w-full float-left flex flex-col gap-2">
+    <div className="h-60 w-full float-left flex flex-col gap-1">
       <h2 className="text-lg font-semibold text-blue-500">Today</h2>
       <LineChart
           width={1100}
           height={220}
           data={data}
           margin={{
-            top: 5,
+            top:30,
             right: 100,
-            left: 10,
-            bottom: 5,
+            left: 20,
+            bottom:30,
           }}
         >
           <XAxis dataKey="time" />

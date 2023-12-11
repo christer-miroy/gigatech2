@@ -15,16 +15,16 @@ const Dashboard = ({orders}) => {
       <Header pageTitle={pageTitle} notificationCount={4} />
       <div className="flex flex-col gap-4 m-1 p-4">
         <div className="flex gap-4">
-          <div className="bg-white p-3 shadow-lg w-4/5">
+          <div className="bg-white p-2 shadow-lg w-4/5">
             <Graph />
           </div>
-          <div className="bg-white p-3 shadow-lg w-1/5">
+          <div className="bg-white p-2 shadow-lg w-1/5">
             <RecentDeposits />
           </div>
         </div>
         <div className="bg-white p-3 shadow-lg">
           <RecentOrders orders={orders} limit={recentOrderLimit} />
-          <Link to="/orders" className="block text-blue-500 mt-4 underline">See more orders</Link>
+          <Link to="/orders" className="block text-blue-500 text-sm mt-4 underline">See more orders</Link>
         </div>
       </div>
       <Footer />
